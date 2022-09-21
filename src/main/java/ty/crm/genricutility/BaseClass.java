@@ -23,6 +23,7 @@ public class BaseClass {
 	protected FileUtility fileUtility;
 	protected WebDriver driver;
 	public static WebDriver sdriver;
+	//this is BaseClass
 
 	@BeforeClass
 	public void classSetup() throws EncryptedDocumentException, IOException {
