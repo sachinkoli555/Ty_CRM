@@ -19,7 +19,7 @@ public class CommonPage {
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private WebElement administator;
 	
-	//this is COMMON PAGE
+	//this is COMMON PAGE iiiiiii
 
 	public CommonPage(WebDriver driver) {
 		this.driver = driver;
