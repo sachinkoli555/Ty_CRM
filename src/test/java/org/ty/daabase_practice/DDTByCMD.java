@@ -10,10 +10,11 @@ public class DDTByCMD {
 	public void testCase1() {
 		String browser = System.getProperty("b");
 		String url = System.getProperty("u");
+
 		System.out.println("borswer is =====> " + browser);
 		System.out.println("url is =====> " + url);
 		WebDriverUtility webDriverUtility = new WebDriverUtility();
 		webDriverUtility.OpenBrowserWithApplication(browser, (long) 1000, url);
-		//hi
-	}//kkkk
+
+	}
 }

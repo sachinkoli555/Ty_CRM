@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import ty.crm.genricutility.WebDriverUtility;
 
+
 public class CommonPage {
 
 	private WebDriver driver;
@@ -17,6 +18,8 @@ public class CommonPage {
 	private WebElement singoutBtn;
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private WebElement administator;
+	
+	//this is COMMON PAGE
 
 	public CommonPage(WebDriver driver) {
 		this.driver = driver;
